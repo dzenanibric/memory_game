@@ -117,7 +117,7 @@ const gameHandler = () => {
                             selected_cards[1].style.zIndex = '-1';
                             selected_cards = [];
 
-                            if(points === 1){
+                            if(points === 8){
                                 message.innerText = 'Congratulations! You have successfully completed the game!';
                                 start_button.disabled = false;
                                 start_button.style.background = 'whitesmoke';
